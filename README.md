@@ -2,8 +2,6 @@
 
 A personalized skill-gap-to-roadmap product for engineering students and fresh graduates figuring out what to learn next — built end-to-end as a Consumer PM + AI PM portfolio project (strategy → PRD → prioritization → data analysis → working AI prototype → UX prototype).
 
-**Live prototype (Figma):** [add your Figma "Present" link here]
-
 ---
 
 ## The problem
