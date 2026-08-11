@@ -3,7 +3,6 @@
 A personalized skill-gap-to-roadmap product for engineering students and fresh graduates figuring out what to learn next — built end-to-end as a Consumer PM + AI PM portfolio project (strategy → PRD → prioritization → data analysis → working AI prototype → UX prototype).
 
 **Live prototype (Figma):** [add your Figma "Present" link here]
-**Working AI demo:** see `05-ai-prototype/copilot_prototype.html` — screen recording: [add your video/GIF link here]
 
 ---
 
@@ -31,16 +30,10 @@ Upload a resume and pick a target role. AI Career Copilot parses the resume, cla
 | `02-prd/` | Full PRD — vision, user stories, requirements, MVP scope, metrics, risks, launch plan (`prd.docx`) |
 | `03-competitive-analysis/` | Competitive analysis + RICE/MoSCoW feature backlog, one workbook, two tabs (`competitive_analysis_backlog.xlsx`) |
 | `04-analytics/` | Synthetic 5,000-user dataset (`synthetic_users.csv`), Excel funnel + segment analysis with live formulas (`user_analytics.xlsx`), Python retention charts, A/B test results |
-| `05-ai-prototype/` | Working AI feature — real resume parsing, skill-gap classification, and roadmap generation via the Claude API (`copilot_prototype.html`) |
+| `05-ai-prototype/` | AI feature — real resume parsing, skill-gap classification, and roadmap generation via the Claude API (`copilot_prototype.html`) |
 | `06-ux-prototype/` | 10-screen click-through UX prototype, landing page through upgrade flow (`screens_prototype.html`) |
 | `figma/` | Figma design file link + screenshots (see below) |
 | `portfolio_summary.docx` | One-page project summary |
-
-## Try it yourself
-
-- **UX flow (works anywhere):** open `06-ux-prototype/screens_prototype.html` in any browser — no setup needed.
-- **AI prototype (needs Claude.ai's artifact environment to call the API):** best viewed as the recorded demo linked above, since a plain browser can't run the live API call without a backend.
-- **Figma prototype:** click the live link at the top of this README, or open `figma/` for static screenshots of all 10 screens.
 
 ## Data & analysis
 
