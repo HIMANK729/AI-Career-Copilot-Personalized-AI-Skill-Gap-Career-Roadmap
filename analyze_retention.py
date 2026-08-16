@@ -33,7 +33,7 @@ for i, seg in enumerate(seg_order):
 ax.spines["top"].set_visible(False)
 ax.spines["right"].set_visible(False)
 plt.tight_layout()
-plt.savefig("/home/claude/chart_retention_by_segment.png", dpi=150)
+plt.savefig("/home/chart_retention_by_segment.png", dpi=150)
 plt.close()
 
 # ---- 2. D30/D7 "stickiness" ratio by segment (retention of retention) ----
@@ -48,7 +48,7 @@ for b, seg in zip(bars, seg_order):
 ax.spines["top"].set_visible(False)
 ax.spines["right"].set_visible(False)
 plt.tight_layout()
-plt.savefig("/home/claude/chart_stickiness_by_segment.png", dpi=150)
+plt.savefig("/home/chart_stickiness_by_segment.png", dpi=150)
 plt.close()
 
 # ---- 3. Full funnel drop-off ----
@@ -67,7 +67,7 @@ for b, p, c in zip(bars, pct, counts):
 ax.spines["top"].set_visible(False)
 ax.spines["right"].set_visible(False)
 plt.tight_layout()
-plt.savefig("/home/claude/chart_funnel.png", dpi=150)
+plt.savefig("/home/chart_funnel.png", dpi=150)
 plt.close()
 
 print(ret.round(3))
