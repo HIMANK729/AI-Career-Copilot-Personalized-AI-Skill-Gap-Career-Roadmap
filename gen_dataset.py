@@ -58,6 +58,6 @@ for i in range(N):
     })
 
 df = pd.DataFrame(rows)
-df.to_csv("/home/claude/synthetic_users.csv", index=False)
+df.to_csv("/home/synthetic_users.csv", index=False)
 print(df.shape)
 print(df.groupby("segment")[["resume_uploaded","assessment_completed","roadmap_generated","first_task_completed","d7_active","d30_active"]].mean().round(3))
