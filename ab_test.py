@@ -82,5 +82,5 @@ for ax, (title, c_val, v_val, pval) in zip(axes, metrics):
     ax.spines["right"].set_visible(False)
 plt.suptitle("A/B Test: Reducing Weekly Tasks from 10 to 3", fontsize=13, color=NAVY, fontweight="bold")
 plt.tight_layout()
-plt.savefig("/home/claude/chart_ab_test.png", dpi=150)
+plt.savefig("/home/chart_ab_test.png", dpi=150)
 plt.close()
