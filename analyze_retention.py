@@ -6,7 +6,7 @@ import matplotlib.ticker as mtick
 
 plt.rcParams["font.family"] = "DejaVu Sans"
 
-df = pd.read_csv("/home/claude/synthetic_users.csv")
+df = pd.read_csv("/home/synthetic_users.csv")
 
 NAVY = "#1F3864"
 ACCENT = "#2E74B5"
